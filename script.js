@@ -10,25 +10,25 @@ let weeklyAllowance = 129;
 let sibling1 = "Jordan";
 let sibling2 = "Quinn";
 let sibling3 = "Ricardo Montoya De La Rosa Ramirez";
-let game = 15.99;
-let shoes = 89.78;
+let game = 16.99;
+let shoes = 44.89;
 
 
 
 // 1. If divided evenly, how much would each sibling get for the week?
-
+// Each sibling would get 43 for the week
 // 2. How many games can Jordan buy with their cut?
-
+// Jordan can buy 2 games with their cut
 // 3. The cost of games just went up by a dollar and shoes are on sale at 50% (half) off. Change the variables to their new prices.
 
 // 4. Quinn and Ricardo are twins. If they put their money together, how many on sale shoes can they buy in a month (4 weeks)?
-
+//  They can buy about 22 shoes in a month
 // 5. How many more games can they buy if they put their money together compared to if they had bought games on their own?
-
+// They could buy about 60 games if they had brought it sperately they would each have 30 games
 // 6. Print out the three siblings' names. "The three siblings are __, __, and ___."
-
+console.log("The");
 // 7. Use console.log() and a built-in method to count how many characters are in Ricardo's name.
-
+console.log();
 // 8. Use console.log() and a built-in method to print out the string "RICARDO MONTOYA DE LA ROSA RAMIREZ"
 
 // 9. Use console.log() and a built-in method to print out the string "ricardo montoya de la rosa ramirez"
