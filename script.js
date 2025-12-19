@@ -26,17 +26,17 @@ let shoes = 44.89;
 // 5. How many more games can they buy if they put their money together compared to if they had bought games on their own?
 // They could buy about 60 games if they had brought it sperately they would each have 30 games
 // 6. Print out the three siblings' names. "The three siblings are __, __, and ___."
-console.log("The");
+console.log(`The three siblings are ${sibling1}, ${sibling2}, and ${sibling3}`);
 // 7. Use console.log() and a built-in method to count how many characters are in Ricardo's name.
-console.log();
+console.log(sibling3.length);
 // 8. Use console.log() and a built-in method to print out the string "RICARDO MONTOYA DE LA ROSA RAMIREZ"
-
+console.log(sibling3.toLocaleUpperCase);
 // 9. Use console.log() and a built-in method to print out the string "ricardo montoya de la rosa ramirez"
-
+console.log(sibling3.toLocaleLowerCase);
 // 10. Use console.log() and a built-in method to print out Ricardo's name, but with all the instances of the letter a removed or deleted.
-
+console.log(sibling3.replace(/a/gi,''));
 // 11. Use console.log() and a built-in method to print out "De La Rosa"
-
+console.log(sibling3.slice(16.26));
 // Medium Challenges
 
 // 12. Rewrite these function as an arrow function.
@@ -45,10 +45,12 @@ console.log();
 function getRandomNum() {
     return Math.floor(Math.random() * 100);
 }
+const getRandomNum = () => Math.floor(Math.random() * 100);
 
 function greeting(name) {
     return `Hello ${name}, I'm glad you can make it!`;
 }
+const greeting = (name) => `Hello ${name}, I'm glad you can make it!`;
 
 function perfectRoot(x) {
     let root = Math.sqrt(x);
@@ -58,6 +60,8 @@ function perfectRoot(x) {
         return "No perfect root"
     }
 }
+const perfectRoot = x =>
+    Number.isInteger(Math.sqrt(x)) ? Math.sqrt(x) : "No perfect root";
 
 // 13. Fix/Finish the following functions.
 /// Then, call them with at least 2 different inputs to ensure they work.
@@ -65,10 +69,11 @@ function perfectRoot(x) {
 /// a. Adds 2 numbers and returns the sum
 const addNums = (x, y) => {
     let sum = x + y;
+    return sum;
 }
 // uncomment the line below, to call the function, and add one more function call
-// console.log( addNums(4, 6) );
-
+console.log( addNums(4, 6) );
+console.log(addNums(7,9));
 
 /// b. Prints a special message if name is "Beyonce"
 const isBeyonce = (name) => {
@@ -79,26 +84,24 @@ const isBeyonce = (name) => {
     }
 }
 // Test "Beyonce" and other names to ensure it works
-
-
+console.log(isBeyonce(Beyonce));
+console.log(isBeyonce(Grace));
 
 /// c. If the number is even, return the number divided by 2, otherwise, return the number
 /// For example reduceEvens(10) => 5 -- reduceEvens(11) => 11
 const reduceEvens = (x) => {
-    if( ){
-
+    if(x % 2 === 0){
+        return x % 2;
     } else {
         return x;
     }
-}
+};
 //Write your own function calls
-
+console.log(reduceEvens(26));
 
 // 14. Write a function called shortenString(string) that returns the first 10 characters of a string if it is longer than 10
 //remove all
-const shortenString = (string) => {
-
-}
+function shortenString(){}
 
 
 
